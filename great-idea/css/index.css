@@ -68,10 +68,14 @@ h1, h2, h3, h4, h5 {
 nav p{
 	color:gray;
 	padding:10px;
-	display:inline-block;
 	margin:10px;
 
 	
+}
+
+nav{
+	display:flex;	
+	flex-direction: row
 }
   img{
 	 float: right;
@@ -92,7 +96,7 @@ nav p{
 		 
 	 }
 	 h1 {
-		 display:block;
+		 display:flex;
 		 text-align: center;
 		 
 
@@ -137,7 +141,7 @@ nav p{
 	 }
 	 .get-started{
 		 border:1px solid black;
-		 display:inline-block;
+		 display:flex;
 		 padding:5px;
 	 }
 
@@ -156,7 +160,7 @@ nav p{
 	}
 
 	.ali{
-		display:block;
+		display:flex;
 		font-size:20px;
 		
 	}
